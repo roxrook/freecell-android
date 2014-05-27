@@ -11,11 +11,11 @@ Classical freecell game on Android.
 * Undo, autoplay.
 
 ##Screenshots
-<img src="https://raw.githubusercontent.com/channguyen/android-freecell/master/appstore/sc0.png">
-<img src="https://raw.githubusercontent.com/channguyen/android-freecell/master/appstore/sc1.png">
-<img src="https://raw.githubusercontent.com/channguyen/android-freecell/master/appstore/sc2.png">
-<img src="https://raw.githubusercontent.com/channguyen/android-freecell/master/appstore/sc3.png">
-<img src="https://raw.githubusercontent.com/channguyen/android-freecell/master/appstore/sc4.png">
+<img src="https://raw.githubusercontent.com/channguyen/freecell-android/master/appstore/sc0.png">
+<img src="https://raw.githubusercontent.com/channguyen/freecell-android/master/appstore/sc1.png">
+<img src="https://raw.githubusercontent.com/channguyen/freecell-android/master/appstore/sc2.png">
+<img src="https://raw.githubusercontent.com/channguyen/freecell-android/master/appstore/sc3.png">
+<img src="https://raw.githubusercontent.com/channguyen/freecell-android/master/appstore/sc4.png">
 
 
 ##Developed By
