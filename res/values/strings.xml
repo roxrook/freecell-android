@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Colorful Freecell</string>
+    <string name="action_new_game">New game</string>
+    <string name="restart_game">Restart</string>
+    <string name="action_settings">Settings</string>
+    <string name="you_won">You won!</string>
+    <string name="all_tableaus_should_be_filled">All tableaus should be filled before dealing</string>
+    <string name="uncover_all_cards_first">Uncover all cards first</string>
+    <string name="settings">Settings</string>
+    <string name="set_number_of_decks_in_game">Set number of decks in game</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="be_able_to_deal_with_all_tableaus_filled">Be able to deal with all tableaus filled</string>
+    <string name="unrestricted_deal">Unrestricted deal</string>
+    <string name="gray_out_cards_that_cannot_be_taken">Gray out cards that cannot be taken</string>
+    <string name="show_card_hints">Show card hints</string>
+    <string name="turn_on_off_sounds">Turn on/off sounds</string>
+    <string name="sounds">Sounds</string>
+    <string name="set_different_card_reverse_image">Set different card reverse image</string>
+    <string name="card_reverse">Card reverse</string>
+    <string name="set_different_card_image_set">Set different card image set</string>
+    <string name="card_image_set">Card image set</string>
+    <string name="set_background_image">Set background image</string>
+    <string name="background">Background</string>
+    <string name="change_speed_of_animations">Change speed of animations</string>
+    <string name="animation_speed">Animation speed</string>
+    <string name="set_fixed_screen_orientation">Set fixed screen orientation</string>
+    <string name="orientation">Orientation</string>
+    <string name="current_progress_will_be_lost_message">Current progress will be lost. Are you sure you want to start new game?</string>
+    <string name="start_new_game_alert_dialog_title">Start new game</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="restart_game_alert_dialog_title">Restart game</string>
+
+    <string-array name="diffTypes">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="animTypes">
+        <item>Slow</item>
+        <item>Fast</item>
+        <item>Super fast</item>
+    </string-array>
+    <string-array name="orientationTypes">
+        <item>Automatic</item>
+        <item>Horizontal</item>
+        <item>Vertical</item>
+    </string-array>
+
+    <string name="unrestricted_undo">Unrestricted undo</string>
+    <string name="be_able_to_undo_deck_draws">Be able to undo deck draws</string>
+    <string name="rules">Rules</string>
+    <string name="spider_solitaire_rules">Spider solitaire rules</string>
+    <string name="rules_of_spider">\tThe game is played with two decks of cards for a total of 104 cards. Fifty-four of the cards are laid out horizontally in ten columns with only the top card showing. The remaining fifty cards are laid out in the lower right hand corner in five piles of ten with no cards showing.\n\n\tIn the horizontal columns a card may be moved to any other card in the column as long as it\'s in descending numerical sequence. For example, a six of hearts may be moved to a seven of any suit. However, a sequence of cards can only be moved if they are all of the same suit in numerical descending order. For example, a six and seven of hearts may be moved to an eight of any suit, but a six of hearts and seven of clubs cannot be moved together. Moving the top card in a column allows the topmost hidden card to be turned over. This card then enters into the play. Other cards can be placed on it, and it can be moved to other cards in a sequence or to an empty column.\n\n\tThe object of the game is to uncover all the hidden cards and by moving cards from one column to another to place cards in sequential order from King to Ace using the fewest number of moves. Each final sequence must be all of the same suit. Once a complete sequence is achieved the cards are removed from the table and 100 points are added to the score. Once a player has made all the moves possible with the current card layout, the player draws a new row of cards from one of the piles of ten in the right lower hand corner by clicking on the cards. Each of the ten cards in this draw lands face up on each of the ten horizontal columns and the player then proceeds to place these in such a way to create a sequence of cards all in one suit.\n</string>
+
+</resources>

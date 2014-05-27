@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="orientationValues">
+        <item>auto</item>
+        <item>horizontal</item>
+        <item>vertical</item>
+    </string-array>
+    
+    <string-array name="animValues">
+        <item>slow</item>
+        <item>fast</item>
+        <item>superfast</item>
+    </string-array>
+    
+    <string-array name="diffValues">
+        <item>easy</item>
+        <item>medium</item>
+        <item>hard</item>
+    </string-array>
+
+</resources>

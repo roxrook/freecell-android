@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:gs="http://schemas.android.com/apk/lib/com.greystripe.sdk"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ViewFlipper
+            android:id="@+id/game_$_viewflipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <!-- Home View -->
+        <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/shadow_main_screen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/home_$_textview_newgame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/game_textview"
+                    android:text="New Game"
+                    android:layout_marginTop="40dp"
+                    />
+
+            <TextView
+                    android:id="@+id/home_$_textview_continue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/game_textview"
+                    android:text="Resume"
+                    android:layout_marginTop="20dp"
+                    />
+
+            <TextView
+                    android:id="@+id/home_$_textview_settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/game_textview"
+                    android:text="Settings"
+                    android:layout_marginTop="20dp"
+                    />
+
+            <TextView
+                    android:id="@+id/home_$_textview_highscore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/game_textview"
+                    android:text="Highscore"
+                    android:layout_marginTop="20dp"
+                    />
+        </LinearLayout>
+
+
+        <!-- Game View -->
+        <LinearLayout
+                android:id="@+id/game_$_linearlayout_background"
+                android:orientation="vertical"
+                android:background="@drawable/bg_suits"
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                <TextView
+                        android:id="@+id/main_$_textview_time_elapsed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time elapsed: 20:48"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        />
+
+                <TextView
+                        android:id="@+id/main_$_textview_moves"
+                        android:layout_below="@id/main_$_textview_time_elapsed"
+                        android:layout_alignStart="@id/main_$_textview_time_elapsed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Moves: 33"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:textColor="#FFFFFF"
+                        />
+
+                <TextView
+                        android:id="@+id/main_$_textview_score"
+                        android:layout_toRightOf="@+id/main_$_textview_moves"
+                        android:layout_below="@+id/main_$_textview_time_elapsed"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Score: 0"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        />
+
+            </RelativeLayout>
+
+
+            <chan.android.game.freecell.view.FreecellView
+                    android:id="@+id/main_$_gameview"
+                    android:background="@drawable/card_table"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    />
+
+            <Button
+                    android:id="@+id/main_$_button_undo"
+                    android:layout_height="40dp"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_horizontal"
+                    style="@style/game_button"
+                    android:background="@drawable/red_button"
+                    android:text="Undo"
+                    android:layout_marginBottom="20dp"
+                    />
+
+            <Button
+                    android:id="@+id/main_$_button_invisible"
+                    android:layout_height="40dp"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_horizontal"
+                    style="@style/game_button"
+                    android:background="@drawable/red_button"
+                    android:text="Undo"
+                    android:visibility="invisible"
+                    android:layout_marginBottom="20dp"
+                    />
+
+
+        </LinearLayout>
+    </ViewFlipper>
+</LinearLayout>

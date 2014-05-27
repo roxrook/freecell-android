@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="tablegreen">#116611</color>
+    <color name="red">#AA2222</color>
+    <color name="gold">#cead00</color>
+    <color name="dark_gray">#CC303030</color>
+    <color name="white">#ffffff</color>
+    <color name="dim">#88D1D1D1</color>
+    <color name="highlight">#AAFFFFFF</color>
+    <color name="blue_base">#449def</color>
+    <color name="blue_stroke">#2F6699</color>
+    <color name="blue_gradientS">#00a2e2</color>
+    <color name="blue_gradientE">#0767a4</color>
+    <color name="menu_text_color">#FFFFFF</color>
+    <color name="menu_shadow_color">#000000</color>
+    <color name="tab_medium">#2B2B2B</color>
+    <color name="tab_dark">#000000</color>
+    <color name="tab_transparent">#10ffffff</color>
+    <color name="download_disabled_gray">#444444</color>
+    <color name="button_selected">#bbbbbb</color>
+    <color name="button_unselected">#dddddd</color>
+    <color name="washer_purple">#0C041C</color>
+    <color name="candidate_normal">#FF000000</color>
+    <color name="candidate_recommended">#FFE35900</color>
+    <color name="candidate_other">#ff808080</color>
+    <color name="selected_background">#0000ff</color>
+    <color name="aluminum1">#ffeeeeec</color>
+    <color name="aluminum2">#ffd3d7cf</color>
+    <color name="aluminum3">#ffbabdb6</color>
+    <color name="aluminum4">#ff888a85</color>
+    <color name="aluminum5">#ff555753</color>
+    <color name="aluminum5_5">#ff50575a</color>
+    <color name="aluminum6">#ff2e3436</color>
+    <color name="light_grey">#ffeef0f2</color>
+    <color name="vimeo_light_grey">#ffd6dbe1</color>
+    <color name="vimeo_grey">#ffc5ccd4</color>
+    <color name="vimeo_dark_grey">#ff7a818a</color>
+    <color name="blue2">#ffe2f4fb</color>
+    <color name="lightGreen">#ffbefe00</color>
+    <color name="green">#ff99CC00</color>
+    <color name="dark_green">#ff669900</color>
+    <color name="red1">#ffffe4e4</color>
+    <color name="red2">#ffffcaca</color>
+    <color name="red5">#ffff7979</color>
+    <color name="red10">#980000</color>
+    <color name="watermelon">#84ff4444</color>
+    <color name="watermelon_red">#ffff4444</color>
+    <color name="light_turquoise">#ff6bd6fd</color>
+    <color name="dark_turquoise">#ff33b5e5</color>
+    <color name="darker_turquoise">#ff0099CC</color>
+    <color name="twitter_grey">#ffe5e5e5</color>
+    <color name="fb_background">#fff7f7f7</color>
+    <color name="fb_header">#ff3b5998</color>
+    <color name="fb_text_bg">#ffeceff5</color>
+    <color name="light_blue">#A3ECFF</color>
+    <color name="drawer_default">#303030</color>
+    <color name="drawer_press">#A3ECFF</color>
+    <color name="drawer_focus">#FF0000</color>
+    <color name="blue_facebook">#3B5998</color>
+
+
+    <color name="orange">#FF6633</color>
+    <color name="orange_2">#CD3700</color>
+    <color name="brown_1">#EBE0D6</color>
+    <color name="brown_2">#E6D8CC</color>
+    <color name="brown_3">#CCB299</color>
+    <color name="brown_4">#CCB299</color>
+    <color name="brown_6">#AD855C</color>
+    <color name="brown_10">#8F7D6B</color>
+    <color name="brown_13">#66594C</color>
+
+
+    <color name="purple_0">#eee8f3</color>
+    <color name="purple_1">#ddd1e7</color>
+    <color name="purple_2">#ccbadc</color>
+    <color name="purple_3">#bba3d0</color>
+    <color name="purple_4">#aa8cc5</color>
+    <color name="purple_5">#9975b9</color>
+    <color name="purple_6">#885ead</color>
+    <color name="purple_7">#7647a2</color>
+    <color name="purple_8">#663096</color>
+    <color name="purple_9">#551a8b</color>
+    <color name="purple_10">#4c177d</color>
+    <color name="purple_11">#44146f</color>
+    <color name="purple_12">#3b1261</color>
+    <color name="purple_13">#2a0d45</color>
+    <color name="purple_14">#220a37</color>
+
+    <color name="blue_dark">#002E4C</color>
+
+
+    <color name="green_0">#e5ffe5</color>
+    <color name="green_1">#ccffcc</color>
+    <color name="green_2">#b2ffb2</color>
+    <color name="green_3">#99ff99</color>
+    <color name="green_4">#7fff7f</color>
+    <color name="green_5">#66ff66</color>
+    <color name="green_6">#4cff4c</color>
+    <color name="green_7">#32ff32</color>
+    <color name="green_8">#19ff19</color>
+    <color name="green_9">#00ff00</color>
+    <color name="green_10">#00e500</color>
+    <color name="green_11">#00cc00</color>
+    <color name="green_12">#00b200</color>
+    <color name="green_13">#009900</color>
+    <color name="green_14">#007f00</color>
+    <color name="green_15">#006600</color>
+    <color name="green_16">#004c00</color>
+    <color name="green_17">#003300</color>
+
+
+    <color name="black">#000000</color>
+
+
+    <color name="blue_0">#e5e5ff</color>
+    <color name="blue_1">#ccccff</color>
+    <color name="blue_2">#b2b2ff</color>
+    <color name="blue_3">#9999ff</color>
+    <color name="blue_4">#7f7fff</color>
+    <color name="blue_5">#6666ff</color>
+    <color name="blue_6">#4c4cff</color>
+    <color name="blue_7">#3232ff</color>
+    <color name="blue_8">#1919ff</color>
+    <color name="blue_9">#0000ff</color>
+    <color name="blue_10">#0000e5</color>
+    <color name="blue_11">#0000cc</color>
+    <color name="blue_12">#0000b2</color>
+    <color name="blue_13">#000099</color>
+    <color name="blue_14">#00007f</color>
+    <color name="blue_15">#000066</color>
+    <color name="blue_16">#00004c</color>
+    <color name="blue_17">#000033</color>
+
+
+</resources>

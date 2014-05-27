@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/vimeo_grey"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General"
+            android:textColor="@color/blue_dark"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="@dimen/settings_header_text_size"
+            />
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/vimeo_dark_grey"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+    <CheckBox
+            android:id="@+id/setting_$_checkbox_sound"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Sound"
+            android:textColor="@color/aluminum6"
+            android:textStyle="bold"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/vimeo_dark_grey"
+            android:text="Play sound when you make a move or shuffle the deck"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+
+    <CheckBox
+            android:id="@+id/setting_$_checkbox_clock"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Clock"
+            android:textColor="@color/aluminum6"
+            android:textStyle="bold"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/vimeo_dark_grey"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:text="Display a count down clock so that you can keep track of how long did it take you to finish the game"
+            />
+
+    <CheckBox
+            android:id="@+id/setting_$_checkbox_auto_play"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/aluminum6"
+            android:text="Auto Play"
+            android:textStyle="bold"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/vimeo_dark_grey"
+            android:text="Auto play will make all the trivial moves for you automatically"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+    <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom"
+            android:textColor="@color/blue_dark"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="@dimen/settings_header_text_size"
+            />
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/vimeo_dark_grey"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/aluminum6"
+                android:text="Background"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                />
+
+        <Spinner
+                android:id="@+id/setting_$_spinner_background"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                />
+
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/vimeo_dark_grey"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Change the background of the main game screen"
+            />
+
+
+</LinearLayout>

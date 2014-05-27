@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/settings" >
+        <ListPreference
+            android:defaultValue="easy"
+            android:entries="@array/diffTypes"
+            android:entryValues="@array/diffValues"
+            android:key="difficulty"
+            android:summary="@string/set_number_of_decks_in_game"
+            android:title="@string/difficulty" />
+
+        <PreferenceScreen
+            android:key="cardReverseImage"
+            android:summary="@string/set_different_card_reverse_image"
+            android:title="@string/card_reverse" />
+        <PreferenceScreen
+            android:key="cardImageSet"
+            android:summary="@string/set_different_card_image_set"
+            android:title="@string/card_image_set" />
+        <PreferenceScreen
+            android:key="backgroundImage"
+            android:summary="@string/set_background_image"
+            android:title="@string/background" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="unrestrictedDeal"
+            android:summary="@string/be_able_to_deal_with_all_tableaus_filled"
+            android:title="@string/unrestricted_deal" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="unrestrictedUndo"
+            android:summary="@string/be_able_to_undo_deck_draws"
+            android:title="@string/unrestricted_undo" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="grayOutHints"
+            android:summary="@string/gray_out_cards_that_cannot_be_taken"
+            android:title="@string/show_card_hints" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sounds"
+            android:summary="@string/turn_on_off_sounds"
+            android:title="@string/sounds" />
+
+        <ListPreference
+            android:defaultValue="slow"
+            android:entries="@array/animTypes"
+            android:entryValues="@array/animValues"
+            android:key="animation"
+            android:summary="@string/change_speed_of_animations"
+            android:title="@string/animation_speed" />
+        <ListPreference
+            android:defaultValue="auto"
+            android:entries="@array/orientationTypes"
+            android:entryValues="@array/orientationValues"
+            android:key="orientation"
+            android:summary="@string/set_fixed_screen_orientation"
+            android:title="@string/orientation" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

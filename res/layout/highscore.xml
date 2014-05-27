@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/vimeo_grey"
+              android:orientation="vertical"
+        >
+
+    <chan.android.game.freecell.view.RoundedRectListView
+            android:id="@+id/highscore_$_listview"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#E6E6E6"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:dividerHeight="5px"
+            />
+
+</LinearLayout>
