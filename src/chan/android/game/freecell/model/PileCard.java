@@ -175,7 +175,7 @@ public class PileCard implements Drawable, Parcelable {
 
     public PileCard(Parcel in) {
         cardList = new ArrayList<Card>();
-        in.readList(cardList, getClass().getClassLoader());
+        in.readList(cardList, ((Object) this).getClass().getClassLoader());
     }
 
     public static final Creator<PileCard> CREATOR = new Creator<PileCard>() {
